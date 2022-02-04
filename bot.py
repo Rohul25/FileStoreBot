@@ -47,7 +47,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel", url="https://t.me/TGLinkOfficial"),
+                        InlineKeyboardButton("Main Channel", url="https://t.me/TamilMV_golf"),
                         InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")
                     ],
                     [
@@ -282,7 +282,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Main Channel",
-                                             url="https://t.me/TGLinkOfficial")
+                                             url="https://t.me/TamilMV_golf")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -301,7 +301,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Main Channel",
-                                             url="https://github.com/gplkavin/GPL-Files-Store-Bot")
+                                             url="https://t.me/TamilMV_golf")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel", url="https://t.me/TGLinkOfficial"),
+                        InlineKeyboardButton("Main Channel", url="https://t.me/TamilMV_golf"),
                         InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")
                     ],
                     [
@@ -373,7 +373,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel", url="https://t.me/TGLinkOfficial"),
+                        InlineKeyboardButton("Main Channel", url="https://t.me/TamilMV_golf"),
                         InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")
                     ],
                     [
