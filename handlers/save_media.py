@@ -46,14 +46,14 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start={str_to_b64(str(SaveMessage.message_id))}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=AdvikKumar{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
             f"**Your File Link:\n\n{share_link}**\n\n"
             f"**Just Click the link to get Your Files**. **",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Main Channel", url="https://t.me/TGLinkOfficial"),
+                 [InlineKeyboardButton("Main Channel", url="https://t.me/TamilMV_golf"),
                   InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")]]
             ),
             disable_web_page_preview=True
@@ -86,14 +86,14 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
         await forwarded_msg.reply_text(
             f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
             parse_mode="Markdown", disable_web_page_preview=True)
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start={str_to_b64(file_er_id)}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=AdvikKumar{str_to_b64(file_er_id)}"
         await editable.edit(
             f"**Your File Link:\n\n{share_link}**\n\n"
             f"**Just Click the link to get your Videos**. **",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Main Channel", url="https://t.me/TGLinkOfficial"),
+                 [InlineKeyboardButton("Main Channel", url="https://t.me/TamilMV_golf"),
                   InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")]]
             ),
             disable_web_page_preview=True
