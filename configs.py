@@ -30,15 +30,15 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** @AdvikKumar
+🧑🏻‍💻 **Developer: @AdvikKumar**
 
-👥 **Support Group:** @MoviesReqGroup
+👥 **Support Group: @MoviesReqGroup**
 
-📢 **Updates Channel:** @TGLinkOfficial"""
+📢 **Updates Channel: @TGLinkOfficial**"""
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @AdvikKumar
 
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
+Developer is Super Noob. Please Donate the developer for Keeping the Service Alive.
 
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
 
