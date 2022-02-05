@@ -53,7 +53,7 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Main Channel", url="https://t.me/TamilMV_golf"),
+                 [InlineKeyboardButton("Main Channel", url="https://t.me/ThaniOruvan25"),
                   InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")]]
             ),
             disable_web_page_preview=True
@@ -93,7 +93,7 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Main Channel", url="https://t.me/TamilMV_golf"),
+                 [InlineKeyboardButton("Main Channel", url="https://t.me/ThaniOruvan25"),
                   InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")]]
             ),
             disable_web_page_preview=True
