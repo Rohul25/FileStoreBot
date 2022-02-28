@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel", url="https://t.me/ThaniOruvan25"),
-                        InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")
+                        InlineKeyboardButton("Main Channel", url="https://t.me/RoyalKing2k"),
+                        InlineKeyboardButton("Movies Channel", url="https://t.me/+zDhPp-Ll8Xc1Njc1")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -282,7 +282,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Main Channel",
-                                             url="https://t.me/ThaniOruvan25")
+                                             url="https://t.me/RoyalKing2k")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -300,8 +300,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel",
-                                             url="https://t.me/ThaniOruvan25")
+                        InlineKeyboardButton("Movies Channel",
+                                             url="https://t.me/RoyalKing2k")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -319,8 +319,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel", url="https://t.me/ThaniOruvan25"),
-                        InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")
+                        InlineKeyboardButton("Main Channel", url="https://t.me/RoyalKing2k"),
+                        InlineKeyboardButton("Movies Channel", url="https://t.me/+zDhPp-Ll8Xc1Njc1")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -373,8 +373,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Main Channel", url="https://t.me/ThaniOruvan25"),
-                        InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")
+                        InlineKeyboardButton("Main Channel", url="https://t.me/RoyalKing2k"),
+                        InlineKeyboardButton("Movies Channel", url="https://t.me/+zDhPp-Ll8Xc1Njc1")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
