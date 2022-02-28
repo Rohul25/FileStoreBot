@@ -46,15 +46,15 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=AdvikKumar_{str_to_b64(str(SaveMessage.message_id))}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
             f"**Your File Link:\n\n{share_link}**\n\n"
             f"**Just Click the link to get Your Files**. **",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Main Channel", url="https://t.me/ThaniOruvan25"),
-                  InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")]]
+                 [InlineKeyboardButton("Main Channel", url="https://t.me/TGLinkOfficial"),
+                  InlineKeyboardButton("Movies Channel", url="https://t.me/+zDhPp-Ll8Xc1Njc1")]]
             ),
             disable_web_page_preview=True
         )
@@ -93,8 +93,8 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Main Channel", url="https://t.me/ThaniOruvan25"),
-                  InlineKeyboardButton("Movies Group", url="https://t.me/MoviesReqGroup")]]
+                 [InlineKeyboardButton("Main Channel", url="https://t.me/TGLinkOfficial"),
+                  InlineKeyboardButton("Movies Channel", url="https://t.me/+zDhPp-Ll8Xc1Njc1")]]
             ),
             disable_web_page_preview=True
         )
