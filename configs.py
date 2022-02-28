@@ -30,22 +30,20 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer: @AdvikKumar**
+🧑🏻‍💻 **Developer: @RoyalKing2k**
 
-👥 **Support Group: @MoviesReqGroup**
-
-📢 **Updates Channel: @TGLinkOfficial**"""
+📢 **Movies Channel: [Movies Channel](https://t.me/+zDhPp-Ll8Xc1Njc1) **"""
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AdvikKumar
+🧑🏻‍💻 **Developer:** @RoyalKing2k
 
 Developer is Super Noob. Please Donate the developer for Keeping the Service Alive.
 
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
 
-Enjoy With Me 🤩 
+Enjoy With Me 🤩 Need To Create A Bot? Contact - @RoyalKing2kBot
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
 
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
+Send me any file I will give you a permanent Sharable Link.
 """
